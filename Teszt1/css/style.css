@@ -11,3 +11,25 @@
 svg {
     height: calc(100vh - 4px);
 }
+
+.btn{
+    background-color: #1D6931;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    top: calc(50vh - 3rem);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+#btn-start {
+    right: 30vw;
+}
+
+#btn-back {
+    left: 50vw;
+    transform: translateX(-50%);
+    display: none;
+}
